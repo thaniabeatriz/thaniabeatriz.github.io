@@ -9,7 +9,8 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: rgb(210,190,255);
+    background: radial-gradient(circle, rgba(210,190,255,1) 0%, rgba(255,255,255,1) 95%);
 }
 
 .cabecalho{
@@ -22,6 +23,7 @@ body {
 
 .cabecalho-imagem{
     height: 72px;
+    border-radius: 50%
 }
 
 .cabecalho-menu{
@@ -31,7 +33,7 @@ body {
 
 .cabecalho-menu-item{
     font-family: 'Fira Sans', sans-serif;
-    color: #FFF2E7;
+    color: #1A1423;
     font-weight: bolder;
     font-size: 18px;
     
@@ -60,14 +62,14 @@ body {
     font-family: 'Reenie Beanie', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #FFF2E7;
+    color: #1A1423;
 }
 
 .conteudo-principal-escrito-subtitulo{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #ECD6C4;
+    color: #372549;
 }
 
 .conteudo-principal-escrito-botao{
@@ -87,8 +89,8 @@ body {
 }
 
 .conteudo-principal-imagem{
-    width: 25%;
-    border-radius: 100px;
+    width: 17%;
+    border-radius: 50%;
 }
 
 .conteudo-secundario{
@@ -122,7 +124,7 @@ body {
 }
 
 .rodape-imagem{
-    height: 60px;
+    height: 70px;
     display: block;
     margin: 0 auto;
 }
